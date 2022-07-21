@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.container-2 {
+  margin: 0 236px;
+}
+header h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.header-description {
+  display: flex;
+}
+.points {
+  display: block;
+  position: relative;
+  bottom: 37px;
+}
+.header-description p {
+  max-width: 64ch;
+  margin-left: 12px;
+  margin-bottom: 40px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4f4f4f;
+}
+header img {
+  max-width: 970px;
+  border-radius: 12px;
+}
+/* INGREDIENTS */
+section {
+  display: flex;
+  justify-content: space-between;
+}
+#container-ingredients h2 {
+  padding-top: 50px;
+  padding-bottom: 32px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+
+#container-ingredients h3 {
+  padding-bottom: 30px;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+input {
+  position: relative;
+  top: 5px;
+}
+.checks {
+  display: flex;
+}
+.checks p {
+  margin-left: 10px;
+  margin-bottom: 14px;
+  max-width: 52ch;
+  color: #333333;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+#container-ingredients .title-2 {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+.checks-2 {
+  display: flex;
+  padding-bottom: 30px;
+  gap: 15px;
+}
+.checks-2 span {
+  display: block;
+  height: 2.35rem;
+  width: 2.2rem;
+  background-color: #f2994a;
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 6px;
+}
+.checks-2 p {
+  max-width: 50ch;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.source {
+  margin-top: 30px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #bdbdbd;
+}
+.source a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+/* COMMENTARY */
+#container-commentary {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding: 40px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.commentary {
+  display: flex;
+  margin-bottom: 30px;
+}
+.commentary:last-child {
+  margin-bottom: 0px;
+}
+.especial-commentary {
+  margin-bottom: 30px;
+}
+.description .d1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
+.orange {
+  color: #f2994a;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.normal {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.material-symbols-outlined.dishes {
+  color: #f2994a;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.material-symbols-outlined.clock {
+  color: #4f4f4f;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+/* FOOTER */
+footer {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #828282;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 17px;
+  padding-bottom: 10px;
+}
+footer span {
+  font-weight: bold;
+  transition: 0.3s;
+}
+footer span:hover {
+  color: #222;
+}
+footer .orange-footer {
+  font-weight: normal;
+}
+footer .orange-footer:hover {
+  color: #fd6027;
+}
+footer a {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+/* MEDIA QUERIE STARTS */
+@media (max-width: 500px) {
+  .container {
+    max-width: 375px;
+    margin: auto;
+  }
+  .container-2 {
+    margin: 0 12px 0 12px;
+  }
+  header h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .header-description {
+    display: flex;
+  }
+  .points {
+    display: block;
+    position: relative;
+    bottom: 37px;
+  }
+  .header-description p {
+    margin-left: 12px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  header img {
+    max-width: 348px;
+  }
+  /* INGREDIENTS */
+  section {
+    flex-direction: column-reverse;
+  }
+  #container-ingredients h2 {
+    padding-top: 30px;
+    padding-bottom: 16px;
+  }
+
+  #container-ingredients h3 {
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .checks p {
+    margin-left: 8px;
+    margin-bottom: 8px;
+    max-width: fit-content;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  #container-ingredients .title-2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .checks-2 {
+    display: flex;
+    padding-bottom: 15px;
+    gap: 15px;
+  }
+  .checks-2 p {
+    max-width: 50ch;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .source {
+    margin-top: 0px;
+    font-size: 12px;
+  }
+  /* COMMENTARY */
+  #container-commentary {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+  .especial-commentary {
+    margin-bottom: 30px;
+    grid-column: 1/4;
+  }
+  .commentary {
+    display: flex;
+    margin-bottom: 0px;
+  }
+  .commentary:last-child {
+    margin-bottom: 0px;
+  }
+  .description .d1 {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .orange {
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .normal {
+    margin-bottom: 0px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .material-symbols-outlined.dishes {
+    margin-top: 0px;
+    margin-right: 5px;
+  }
+  .material-symbols-outlined.clock {
+    margin-top: 0px;
+    margin-right: 5px;
+  }
+}
