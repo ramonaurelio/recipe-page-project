@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://luminous-semifreddo-6a4ee4.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://github.com/ramonaurelio/recipe-page-project">
       Solution
     </a>
     <span> | </span>
@@ -40,7 +40,7 @@
 ![screenshot](./imgs/Screenshot_3.png)
 
 I really enjoyed the short time working on this project. I improved on the use of the Grid property and Flexbox in CSS3.
-You can find the demo of the webpage [here]()
+You can find the demo of the webpage [here](https://luminous-semifreddo-6a4ee4.netlify.app/)
 
 ### Built With
 
